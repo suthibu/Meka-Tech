@@ -1,0 +1,2 @@
+これは私が作ったminecraftMODpack MekaTeckのレシピ改変内容です
+ご自由に使ってください
