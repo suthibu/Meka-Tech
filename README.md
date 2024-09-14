@@ -1,2 +1,2 @@
-これは私が作ったminecraftMODpack MekaTeckのKubeJSでのレシピ改変内容です
-ご自由に使ってください
+これは私が作ったminecraftMODpack MekaTeckのKubeJSファイルです
+ご自由にお使いください
