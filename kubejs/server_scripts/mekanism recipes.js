@@ -1,0 +1,45 @@
+ServerEvents.recipes(event => {
+    event.shaped(
+        Item.of("solarpanels:creative_solar_element"),
+        [
+            "AAA",
+            "BBB",
+            "CCC"
+        ],
+        {
+            A:"minecraft:pink_stained_glass_pane",
+            B:"kubejs:mek_board",
+            C:"kubejs:tech_gear"
+        }
+    )
+    event.shaped(
+        Item.of("solarpanels:creative_solar_panel"),
+        [
+            "AAA",
+            "BCB",
+            "DED"
+        ],
+        {
+            A:"solarpanels:creative_solar_element",
+            B:"mekanism:ingot_osmium",
+            C:"solarpanels:photonic_solar_panel",
+            D:"mekanism:hdpe_sheet",
+            E:"solarpanels:creative_energy_tablet"
+        }
+    )
+    event.shaped(
+        Item.of("solarpanels:creative_energy_tablet"),
+        [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        {
+            A:"mekaevolution:infinite_control_circuit",
+            B:"kubejs:mek_board",
+            C:"mekaevolution:cosmic_control_circuit",
+            D:"solarpanels:photonic_energy_tablet"
+        }
+    )
+    event.recipes.mekanism.combining("kubejs:mek_board", "4x mekaevolution:infinite_control_circuit", "mekanism:pellet_polonium")
+})
